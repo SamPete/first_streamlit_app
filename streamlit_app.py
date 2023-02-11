@@ -45,5 +45,5 @@ streamlit.dataframe(my_data_rows)
 
 #New Section to display fruitivice api response
 streamlit.header("What fruit would you like to add?")
-fruit_choice = streamlit.text_input('What fruit would you like information about?','jackfruit')
-streamlit.write('Thanks for adding Jackfruit ', fruit_choice)
+fruit_choice = streamlit.text_input('What would you like to add ?','jackfruit')
+streamlit.write('Thanks for adding ', fruit_choice)
